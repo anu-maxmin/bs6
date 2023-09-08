@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding-top: 80px;
+}
+
+
+.join{
+    padding-top: 70px;
+}
+.mrg{
+    margin-bottom: 50px;
+}
+.logo{
+    max-width: 150px;
+}
+
+.bg, .copyright{
+    background-color: rgb(195, 237, 251);
+}
+
+.frm{
+    min-width: fit-content;
+    min-height: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.form-group{
+    padding: 20px;
+}
+
+.footer{
+    max-width: 250px;
+}

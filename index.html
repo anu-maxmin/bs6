@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f8b794b2fd.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-sm fixed-top bg">
+        <img src="buildlogo.png" class="logo mr-2">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#btn"  aria-expanded="false">
+            <i class="fa-solid fa-bars bx-md"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="btn">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item l1"><a href="#content" class="nav-link mx-3">Home</a></li>
+                <li class="nav-item l1"><a href="#form1" class="nav-link mx-3">Register</a></li>
+                <li class="nav-item l1"><a href="#mentors" class="nav-link mx-3">Mentors</a></li>
+                <li class="nav-item l1"><a href="#" class="nav-link mx-3">Participants</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+<div class="content col-sm-12" id="content">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="carousel.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="carousel2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="carousel.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="text-center justify-content-center join">
+            <h3 class="mrg col-12">Join Us</h3>
+            <p class="mrg col-12">Pygrammers is a communinty of python enthusiasts with similar idealogists and interest</p>
+            <div class="text-center mrg">
+                <a href="https://web.telegram.org/"><button type="submit" class="btn btn-primary mb-2 ">Telegram</button></a>
+             </div>
+      </div>
+    </div>
+</div>
+    
+<div class="d-flex justify-content-center" id="form1">
+    <div class="row border mt-5 mb-4 mx-3 col-14 col-lg-6 frm">
+        <form action="/action_page.php" class=" px-0">
+            <h1 class="text-center">Form</h1>
+            <div class="form-group text-center">
+              <label for="email" class="lbl">Name</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="form-group text-center">
+              <label for="pwd" class="lbl">Mobile Number</label>
+              <input type="password" class="form-control" id="pwd">
+            </div>
+            <div class="form-group text-center">
+                <label for="email" class="lbl">Email address</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+              <div class="form-group text-center">
+                <label for="email" class="lbl">Company/Institution</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlFile1"> Upload a short video of image of hand written sheet showing your interest to <br>
+                    to join build.myweb</label>
+                <input type="file" class="form-control-file d-flex justify-content-center" id="exampleFormControlFile1">
+              </div>
+              <div class="form-group  text-center">
+                <label class="my-1 mr-2" for="inlineFormCustomSelect"></label>
+                <select class="custom-select my-1 mr-sm-2 col-12" id="inlineFormCustomSelect">
+                  <option selected>Have you attended any events by Pygrammers before?!
+                  </option>
+                  <option value="1">Yes</option>
+                  <option value="2">No</option>
+                </select>
+              </div>
+             <div class="text-center d-flex justify-content-center">
+                <button type="submit" class="btn btn-primary mb-2 ">Submit</button>
+             </div>              
+              
+          </form>
+    </div>
+</div>
+    
+
+      
+
+
+    <div class="container mt-5" id="mentors">
+        <h5 class="text-center">Mentor</h5>
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
+            <div class="col">
+              <div class="card h-100 border-0">
+                <img src="desktop-wallpaper-elon-musk.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 border-0">
+                <img src="desktop-wallpaper-elon-musk.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a short card.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 border-0">
+                <img src="desktop-wallpaper-elon-musk.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 border-0">
+                <img src="desktop-wallpaper-elon-musk.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div><div class="col">
+                <div class="card h-100 border-0">
+                  <img src="desktop-wallpaper-elon-musk.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 border-0">
+                  <img src="desktop-wallpaper-elon-musk.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div>
+
+        </div>
+    
+    </div>
+
+    <div class="copyright d-flex justify-content-center">
+      <img src="footer.png" class="footer">
+  </div>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>  -->
+</body>
+</html>
